@@ -8,8 +8,10 @@ public class Cachorro extends Animal{
 		super(raca, idade, peso);
 		// TODO Auto-generated constructor stub
 	}
-
-
-
+	
+ @Override
+    public void fazerbarulho(){
+    	System.out.println("AUAU");
+    }
 
 }

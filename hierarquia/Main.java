@@ -11,7 +11,7 @@ public class Main {
 		 
 		 for(int i=0 ; i < bichos.length ; i++){
 			 System.out.println("Raça: " + bichos[i].raca + " Idade:"+ bichos[i].idade+" Peso:"+bichos[i].peso);
-             bichos[i].fazerbarulho();
+			 bichos[i].fazerbarulho();
              System.out.println();
 		 }
       

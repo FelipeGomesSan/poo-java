@@ -1,6 +1,6 @@
 package hierarquia;
 
-public class Animal {
+public abstract class Animal {
 
 	public String raca;
 	public int idade;

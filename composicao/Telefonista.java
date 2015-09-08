@@ -10,6 +10,10 @@ public class Telefonista {
 		telefone = new TelefoneDigital();
 	}
 	
+	public Telefonista(Telefone telefone){
+		this.telefone = telefone;
+	}
+	
 	public void adicionarNumero(String usuario){
 		usuarios.add(usuario);
 }

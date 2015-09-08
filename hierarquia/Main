@@ -1,0 +1,12 @@
+package composicao;
+
+public class Main {
+	
+	public static void Main(String[] args){
+		Telefonista telefonista = new Telefonista();
+		telefonista.adicionarNumero("123456");
+		telefonista.adicionarNumero("654321");
+		System.out.println(telefonista.telefonar());	
+	} 
+
+}

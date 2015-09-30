@@ -43,7 +43,6 @@ public class Baralho implements Iterable<Carta>, Iterator<Carta> {
 	@Override
 	public Carta next() {
 		Carta cartaAtual= cartas.get(cartaAtualIndex);
-		cartaAtualIndex++;
 		return cartaAtual;
 	}
 

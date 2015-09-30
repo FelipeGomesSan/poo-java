@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-public class Carta implements Comparable{
+public class Carta implements Comparable<Baralho>{
 	private String naipe;
 	private String numero;
 	
@@ -73,24 +73,20 @@ public class Carta implements Comparable{
 		return true;
 	}
 
-	
-	@Override
 	public int compareTo(Carta o) {
-		int comp= this.numero.compareTo(o.numero);
-		if(comp==0){
-			Map<String, Integer> pesosNaipes= new HashMap<String, Integer>();
-			pesosNaipes.put("♢", 1);
-			pesosNaipes.put("♠", 2);
-			pesosNaipes.put("♡", 3);
-			pesosNaipes.put("♣", 4);
-			Integer pesoDessaCarta= pesosNaipes.get(this.naipe);
-			Integer pesoOutraCarta = pesosNaipes.get(o.naipe);
-			return pesoDessaCarta.compareTo(pesoOutraCarta);
-			
-		}else{
+			int comp= this.numero.compareTo(o.numero);
+			if(comp==0){
+				Map<String, Integer> pesosNaipes= new HashMap<String, Integer>();
+				
+			}else{
+				return comp;
+			}
 			return comp;
-		}
 	}
 
- 
+	@Override
+	public int compareTo(Baralho o) {
+		return 0;
+	}
+	
 }

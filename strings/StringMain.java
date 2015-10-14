@@ -1,7 +1,7 @@
 package strings;
 public class StringMain {
 	public static void main(String[] args){
-		String gomes ='Gomes';
+		String gomes ="Gomes";
 		String gomes2="Gomes";
 		String gomesNew=new String("Gomes");
 		

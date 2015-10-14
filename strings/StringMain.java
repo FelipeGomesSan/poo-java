@@ -13,7 +13,6 @@ public class StringMain {
 		System.out.println(gomes.charAt(0));
 		gomes=gomes.concat("n");
 		System.out.println(gomes);
-		
 	}
 
 }

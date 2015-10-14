@@ -13,6 +13,14 @@ public class StringMain {
 		System.out.println(gomes.charAt(0));
 		gomes=gomes.concat("n");
 		System.out.println(gomes);
+		
+		System.out.println(gomes.equals("GoMesN"));
+		System.out.println(gomes.equalsIgnoreCase("GoMesN"));
+		
+		System.out.println(gomes.toLowerCase());
+		System.out.println(gomes.toUpperCase());
+		
+		
 	}
 
 }

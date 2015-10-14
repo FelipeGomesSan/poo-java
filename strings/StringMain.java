@@ -10,6 +10,10 @@ public class StringMain {
 		System.out.println(gomes.equals(gomes2));
 		System.out.println(gomes.equals(gomesNew));
 		
+		System.out.println(gomes.charAt(0));
+		gomes=gomes.concat("n");
+		System.out.println(gomes);
+		
 	}
 
 }
